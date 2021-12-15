@@ -1,0 +1,104 @@
+body {
+    background-color: azure;
+
+    font-family: "Comic Sans M.S, cursive, sans-serif";
+    margin:0;
+
+}
+
+a {
+    text-decoration: none;
+    color:fuchsia;
+
+}
+
+.header-container {
+    display: flex;
+    background: lightsteelblue;
+    color: fuchsia;
+}
+
+.header-container-header {
+    flex: 2;
+    font-size: 25px;
+    text-align: center;
+}
+
+.header-navbar {
+    flex: 2;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-navbar-item {
+    flex: 1;
+    text-align: center;
+}
+
+.header-navbar-item a:hover {
+    color: mediumorchid;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-hotdog {
+    display: flex;
+    flex: 1;
+}
+
+.main-container-hotdog-photo {
+    flex: 1;
+}
+
+.main-container-hotdog-description {
+    flex: 2;
+}
+
+#hotdog-photo { 
+    width: 20%;
+}
+
+.main-container-schnitzel {
+    display: flex;
+    flex: 1;
+}
+
+.main-container-schnitzel-photo {
+    flex: 1;
+}
+
+.main-container-schnitzel-description {
+    flex: 2;
+}
+
+#schnitzel-photo {
+    width: 20%;
+
+}
+
+#main-footer{
+
+
+    background: #333;
+    color: hotpink;
+    text-align: center;
+    padding:20px;
+    margin-top:40px;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:3em; 
+
+
+}
